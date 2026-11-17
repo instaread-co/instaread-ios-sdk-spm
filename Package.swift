@@ -27,12 +27,12 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "InstareadSDK",
-            url: "https://github.com/instaread-co/instaread-ios-sdk-spm/releases/download/1.6.3/InstareadSDK-1.6.3.xcframework.zip",
+            url: "https://github.com/instaread-co/instaread-ios-sdk-spm/releases/download/1.6.4/InstareadSDK-1.6.4.xcframework.zip",
             // `swift package compute-checksum` on that exact zip. Swift refuses
             // the download if it does not match, so this is what makes a
             // tampered or truncated file fail loudly instead of silently
             // building against the wrong binary.
-            checksum: "5b78b01f8c1e0349ee9ca99830f4467737322b42fabf9f479141767ee0404bd3"
+            checksum: "18f0a035260f854502e5a0496a5052b86e22d1087748707198d7c8984abe3dc0"
         )
     ]
 )
